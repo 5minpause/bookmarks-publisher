@@ -1,0 +1,35 @@
+{
+  "name": "microblog-publisher",
+  "version": "1.0.0",
+  "description": "Publish bookmarked content to Micro.blog from Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [
+    "obsidian",
+    "microblog",
+    "publish"
+  ],
+  "author": "Holger Frohloff",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.11.24",
+    "@typescript-eslint/eslint-plugin": "^5.29.0",
+    "@typescript-eslint/parser": "^5.29.0",
+    "builtin-modules": "^3.3.0",
+    "esbuild": "0.19.12",
+    "jest": "^29.7.0",
+    "obsidian": "latest",
+    "ts-jest": "^29.3.0",
+    "tslib": "2.3.1",
+    "typescript": "5.3.3"
+  },
+  "dependencies": {
+    "obsidian": "latest"
+  }
+}

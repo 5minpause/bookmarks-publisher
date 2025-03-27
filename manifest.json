@@ -1,0 +1,9 @@
+{
+    "id": "microblog-publisher",
+    "name": "Bookmarks Publisher for Micro.blog",
+    "version": "1.0.0",
+    "minAppVersion": "0.15.0",
+    "author": "Holger Frohloff",
+    "description": "Publish bookmarked content to Micro.blog from Obsidian",
+    "isDesktopOnly": false
+  }
